@@ -1,0 +1,346 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.ant{
+    width: 1240px;
+    margin: 0 auto;
+}
+.top{
+    width: 1920px;
+    height: 360px;
+    margin: 0 auto;
+    background: url(../img/top1.jpg) no-repeat;
+}
+.top .top1{
+    height: 360px;
+    position: relative;
+}
+.top .top1 .head{
+    width: 1358px;
+    height: 78px;
+}
+.top .top1 .lo{
+    width: 167px;
+    height: 60px;
+    margin-top: 16px;
+    background: url(../img/lol.png) no-repeat;
+}
+.top .top1 .zi ul{
+    width: 719.938px;
+    height: 62px;
+    margin-top: 16px;
+    margin-left: 30px;
+    position: relative;
+}
+.top .top1 .zi ul li{
+    float: left;
+    width: 143.98px;
+    height: 78px;
+}
+.top .top1 .zi ul li:hover .chu{
+    display: block;
+}
+.top .top1 .zi ul li .t1{
+    width: 143.98px;
+    height: 27px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+}
+.top .top1 .zi ul li .t2{
+    text-decoration: none;
+    color: #aeaeae;
+    font-size: 11px;
+    margin-top:-1px;
+    width: 143.98px;
+    height: 18px;
+}
+.top .top1 .zi ul li .chu{
+    position: absolute;
+    top: 66px;
+    left: -20px;
+    width: 710px;
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.top .top1 .zi ul li .chu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.top .top1 .biao{
+    width: 358px;
+    height: 78px;
+    margin-top: 20px;
+}
+.top .top1 .biao .i1{
+    height: 21px;
+    width: 21px;
+    margin-top: 14px;
+    margin-right: 33px;
+    background: url(../img/精灵图2.png) no-repeat -381px -39px;
+}
+.top .top1 .biao .i2{
+    height: 24px;
+    width: 16px;
+    margin-right: 24px;
+    background: url(../img/精灵图2.png) no-repeat -304px -84px;
+}
+.top .top1 .biao .qin {
+    width: 244px;
+    height: 78px;
+    position: relative;
+}
+.top .top1 .biao .qin .i3{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    background: url(../img/精灵图2.png) no-repeat -216px -117px;
+}
+.top .top1 .biao .qin .i4{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.top .top1 .biao .qin .i4 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.top .top1 .biao .qin .ai{
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 16px;
+    line-height: 78px;
+    position: absolute;
+    right: 0px;
+    top: -13px;
+}
+.top .box{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 600px;
+    bottom: 36px;
+    background: url(../img/精灵图2.png) no-repeat -217px -39px;
+}
+.top .top1zi{
+    width: 254.33px;
+    height: 26px;
+    position: absolute;
+    right: 0px;
+    bottom: 36px;
+}
+.top .top1zi .d1{
+    color: #888787;
+    font-size: 14px;
+}
+.top .top1zi .d2{
+    font-size: 14px;
+    color: #f5d185;
+}
+.top .top1zi .d3{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+    height: 22px;
+    border: 2px solid #f5d185;
+    text-align: center;
+    line-height: 22px;
+    background: #000;
+    background: rgba(0,0,0,.65);
+    font-size: 12px;
+    color: #f5d185;
+}
+
+
+
+/* 身 */
+a{
+    text-decoration: none;
+}
+.shen{
+    background-color: #F7F8F8;
+}
+.shen .shen1{
+    height: 96px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 96px;
+    font-size: 14px;
+}
+.shen .shen1 .i200{
+    width: 16px;
+    height: 16px;
+    background: url(../img/精灵图5.png) -832px 2px;
+    margin-right: 10px;
+}
+.shen .shen1 a{
+    text-align: left;
+    line-height: 96px;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+.shen .shen1 .i201{
+    width: 5px;
+    height: 8px;
+    margin: 0 21px;
+    background: url(../img/精灵图5.png) -832px -18px;
+}
+.shen .shen1 .aa{
+    color:  #424242;
+}
+
+.shen .shen2{
+    width: 1238px;
+    height: 48px;
+}
+.shen .shen2 ul{
+    width: 1238px;
+    height: 48px;
+    border-top:4px solid #d7d7d7 ;
+}
+.shen .shen2 ul li{
+    float: left;
+    height: 49px;
+    line-height: 48px;
+    width: 160px;
+    text-align: center;
+}
+.shen .shen2 ul li a{
+    color: #525252;
+    font-size: 16px;
+}
+.shen .shen2 ul .lili01{
+    height: 49px;
+    line-height: 48px;
+    width: 160px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-top:4px solid #00A383 ;
+}
+.shen .shen2 .lili01 a{
+    color: #00A383;
+}
+
+
+
+.shen .shen3{
+    width: 1171px;
+    padding: 30px 37px 30px 30px;
+    background-color: #FFFFFF;
+}
+.shen .shen3 .topz ul{
+    width: 820px;
+    height: 19px;
+    padding-top: 5px;
+}
+.shen .shen3 .topz ul li{
+    width: 67px;
+    height: 19px;
+    margin-right: 17px;
+    float: left;
+}
+.shen .shen3 .topy{
+    float: right;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #cdcdcd;
+   
+}
+.shen .shen3 .topy input{
+    width: 245px;
+    height: 40px;
+    line-height: 20px;
+    color: #999; 
+    border: 1px solid #CDCDCD;
+}
+
+
+.shen .bigt{
+    width: 1171px;
+    height:800px;
+    padding-top: 72px;
+    overflow: auto;
+}
+.shen .bigt ul{
+    width: 1171px;
+    height:800px;
+}
+.shen .bigt ul li{
+    width: 90px;
+    height: 100px;
+    float: left;
+    margin-bottom: 22px;
+}
+.shen .bigt .img{
+    margin-left: 10px;
+}
+.shen .bigt p{
+    color: #666;
+    vertical-align: center;
+    width: 90px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* 脚 */
+.foot{
+    padding: 45px 0px;
+    background-color: #E3E2E2;
+}
+.foot .footbao{
+    height: 145px;
+    padding: 15px 20px;
+}
+.foot .footbao .footz{
+    width: 321px;
+    height: 100px;
+    margin-top: 24px;
+}
+.foot .footbao .footz .i200{
+    width: 189px;
+    height: 34px;
+    background: url(../img/精灵图2.png) -215px -1px;
+}
+.foot .footbao .footz .i201{
+    width: 82px;
+    height: 28px;
+    background: url(../img/精灵图2.png) -215px -85px;
+}
+.foot .footbao .footy li{
+    line-height: 20px;
+}
+.foot .footbao .footy a{
+    text-decoration: none;
+    color: #9f9378;
+    font-size: 12px;
+}
+.foot .footbao .footy span{
+    color: #9f9378;
+    font-size: 12px;
+}
+
+
+
+.father{
+    position: relative;
+}
+.father .gu{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 105px;
+    height: 53px;
+    background:url(../img/精灵图4.png) no-repeat  -2px -137px;
+}

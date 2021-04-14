@@ -1,0 +1,816 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.ant{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.headd{
+    width: 100%;
+    height: 78px;
+    background-color: #000000;
+}
+.headd .top1{
+    height: 78px;
+    position: relative;
+}
+.headd .top1 .head{
+    width: 1358px;
+    height: 78px;
+}
+.headd .top1 .lo{
+    width: 167px;
+    height: 60px;
+    margin-top: 16px;
+    background: url(../img/lol.png) no-repeat;
+}
+.headd .top1 .zi ul{
+    width: 719.938px;
+    height: 62px;
+    margin-top: 16px;
+    margin-left: 30px;
+    position: relative;
+}
+.headd .top1 .zi ul li{
+    float: left;
+    width: 143.98px;
+    height: 78px;
+}
+.headd .top1 .zi ul li:hover .chu{
+    display: block;
+}
+.headd .top1 .zi ul li .t1{
+    width: 143.98px;
+    height: 27px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+}
+.headd .top1 .zi ul li .t2{
+    text-decoration: none;
+    color: #aeaeae;
+    font-size: 11px;
+    margin-top:-1px;
+    width: 143.98px;
+    height: 18px;
+}
+.headd .top1 .zi ul li .chu{
+    position: absolute;
+    top: 66px;
+    left: -20px;
+    width: 710px;
+    height: 200px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.headd .top1 .zi ul li .chu a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.headd .top1 .biao{
+    width: 358px;
+    height: 78px;
+    margin-top: 20px;
+}
+.headd .top1 .biao .i1{
+    height: 21px;
+    width: 21px;
+    margin-top: 14px;
+    margin-right: 33px;
+    background: url(../img/精灵图2.png) no-repeat -381px -39px;
+}
+.headd .top1 .biao .i2{
+    height: 24px;
+    width: 16px;
+    margin-right: 24px;
+    background: url(../img/精灵图2.png) no-repeat -304px -84px;
+}
+.headd .top1 .biao .qin {
+    width: 244px;
+    height: 78px;
+    position: relative;
+}
+.headd .top1 .biao .qin .i3{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    background: url(../img/精灵图2.png) no-repeat -216px -117px;
+}
+.headd .top1 .biao .qin .i4{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.headd .top1 .biao .qin .i4 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.headd .top1 .biao .qin .ai{
+    text-decoration: none;
+    color: #CDAC56;
+    font-size: 16px;
+    line-height: 78px;
+    position: absolute;
+    right: 72px;
+    top: -13px;
+}
+
+
+
+/* 身 */
+.shen{
+    width: 100%;
+    background: url(../img/sprite-bg.png) no-repeat;
+}
+.shen1{
+    height: 50px;
+    padding-top: 45px;
+    color: #888;
+    font-size: 12px;
+    position: relative;
+    height: 50px;
+    padding-top: 45px;
+    border-bottom: 2px solid #E9E9E9;
+}
+.shen1 .i77{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background: url(../img/精灵图7.png) -1829px -72px;
+}
+.shen1 .pp{
+    font-size: 14px;
+    font-weight: 700;
+    color: #444;
+}
+.shen1 .pp1{
+    color: #444;
+    font-weight: 700;
+}
+.shen1 .i88{
+    width: 6px;
+    height: 10px;
+    margin: 5px 33px;
+    background: url(../img/精灵图5.png) -832px -18px ;
+}
+
+
+
+
+.shen2{
+    height: 120px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    margin-top: 110px;
+    font-size: 12px;
+    position: relative;
+}
+.shen2 .i76{
+    width: 138px;
+    height: 138px;
+    position: absolute;
+    top: -70px;
+    left: 78px;
+    background: url(../img/精灵图7.png) 0px -151px;
+}
+.shen2 .i76 .img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.shen2 .pp2{
+    font-size: 30px;
+    color: #444;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    float: left;
+    top: -68px;
+    left: 330px;
+}
+.shen2 .pp3{
+    width: 83px;
+    padding: 0 5px;
+    margin: 0px 5px;
+    background: #0baac0;
+    border-radius: 4px;
+    color: #fff;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: -46px;
+    left: 482px;
+}
+.shen2 .ss{
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top: 22px;
+    right: 10px;
+}
+.shen2 .ss .pp5{
+    color: #444;
+    font-size: 30px;
+}
+.shen2 .ss .pp4{
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+}
+
+
+.shen2 .dd{
+    margin: 15px;
+    height: 34px;
+    position: absolute;
+    top: -3px;
+    left:354px;
+}
+.shen2 .dd span{
+    width: 69px;
+    height: 34px;
+    margin-right: 24px;
+}
+.shen2 .dd .i22{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url(../img/精灵图7.png) -1514px -137px;
+}
+.shen2 .dd .pp5{
+    width: 69px;
+    height: 17px;
+    color: #444;
+    font-size: 12px;
+}
+.shen2 .dd .pp4{
+    color: #0baac0;
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.shen3{
+    height: 99px;
+    border: 1px solid #f1f1f1;
+    border-top: none;
+    background: #fff;
+}
+.shen3 ul{
+    height: 99px;
+}
+.shen3 ul li{
+    width:412px;
+    height: 99px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+.shen3 ul li:hover{
+    border-bottom:4px solid #0BAAC0;
+}
+.shen3 ul li:hover span{
+    color: #0BAAC0;
+}
+.shen3 .spc{
+    width: 412px;
+    height: 26px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #444;
+}
+.shen3 .spe{
+    width: 412px;
+    height: 17px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #aaa;
+}
+.shen3 .ii1{
+    width: 9px;
+    height: 46px;
+    position: absolute;
+    right: 0px;
+    top: 24px;
+    background: url(../img/精灵图8.png) 0px  -185px;
+}
+
+
+
+
+.shen4{
+    margin-top: 10px;
+    height: 356px;
+    background: url(../img/tubg.png) no-repeat;
+    position: relative;
+}
+.shen4 .zi{
+    width: 1210px;
+    height: 26px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+.shen4 .zi h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left:10px ;
+    color:#FFFFFF ;
+    border-left: 2px solid #FFFFFF;
+}
+
+.shen4 .shen4bao{
+    width: 1210px;
+    height: 300px;
+    padding-left:30px;
+}
+.shen4 .shen4bao .shen4z{
+    width: 369px;
+    height: 300px;
+}
+.shen4 .shen4bao .shen4z ul{
+    width: 100%;
+    height: 100%;
+}
+.shen4 .shen4bao .shen4z ul li{
+    width: 369px;
+    height: 130px;
+    position: relative;
+}
+.shen4 .shen4bao .shen4z .i300{
+    width: 98px;
+    height: 97px;
+    position: absolute;
+    top: 28px;
+    left: 19px;
+    background: url(../img/精灵图7.png) -1185px -34px;
+}
+.shen4 .shen4bao .shen4z .i300 .img{
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.i304{
+    width: 9px;
+    height: 46px;
+    position: absolute;
+    right: 0px;
+    top: 62px;
+    background: url(../img/精灵图8.png) 0px  -185px;
+}
+.shen4 .shen4bao .shen4z .zi2{
+    width: 210px;
+    height: 92px;
+    padding-left: 24px;
+    margin-top: 30px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp8{
+    width: 210px;
+    height: 27px;
+    margin-top: 10px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp8 .ss11{
+    font-size: 18px;
+    color: #fff;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp8 .ss12{
+    color: #0baac0;
+    margin: 0px 0px 0px 5px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp9{
+    width: 210px;
+    height: 17px;
+    margin-top: 10px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp9 .ss13{
+    margin-right: 14px;
+    color: #fff;
+    font-size: 12px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp9 .ss14{
+    margin-right: 14px;
+    color: #bb9a6c;
+    font-size: 12px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp10{
+    width: 210px;
+    height: 17px;
+    margin-top: 10px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp10 .i301{
+    width: 12px;
+    height: 12px;
+    background: url(../img/精灵图7.png) -1813px -77px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp10 .i302{
+    width: 12px;
+    height: 12px;
+    background: url(../img/精灵图7.png) -1813px -77px;
+}
+.shen4 .shen4bao .shen4z .zi2 .pp10 span{
+    color: #aaa;
+    margin-right: 10px;
+}
+.shen4 .shen4bao .shen4z .i303{
+    width: 122px;
+    height: 114px;
+    background: url(../img/徽章.png) no-repeat;
+}
+.shen4 .shen4bao .shen4z .ss15 p{
+    width: 125px;
+    height: 22px;
+    text-align: center;
+    line-height: 23px;
+    color: #fff;
+    font-size: 12px;
+}
+.shen4 .i306{
+    width: 257px;
+    height: 207px;
+    position: absolute;
+    top: 0px;
+    left: 442px;
+    background: url(../img/截.png) no-repeat;
+}
+
+.shen4 .shen4bao .shen4y{
+    width: 270px;
+    height: 70px;
+    padding:35px 10px 0 15px;
+    margin-right: 200px;
+}
+.shen4 .shen4bao .shen4y .i307{
+    width: 70px;
+    height: 70px;
+    margin-right: 17px;
+    background: url(../img/精灵图7.png) -1185px -138px ;
+}
+.shen4 .shen4bao .shen4y .i307 .pp11{
+    width: 70px;
+    height: 27px;
+    margin-top: 13px;
+    font-size: 18px;
+    text-align: center;
+    color: #0baac0;
+}
+.shen4 .shen4bao .shen4y .i307 .pp12{
+    width: 70px;
+    height: 17px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.shen4 .shen4bao .chang{
+    width: 585px;
+    height: 60px;
+    position: absolute;
+    top:262px;
+    left: 424px;
+}
+.shen4 .shen4bao .chang span{
+    color: #fff;
+    margin-right: 10px;
+}
+.shen4 .shen4bao .shuang{
+    width: 331px;
+    height: 60px;
+    position: absolute;
+    right: 23px;
+    bottom: 30px;
+}
+.shen4 .shen4bao .shuang .he1{
+    width: 110px;
+    height: 28px;
+    text-align: center;
+    padding: 5px 30px 5px 20px;
+    line-height: 28px;
+    border: 1px solid #bb9a6c;
+    border-radius: 5px;
+    float: left;
+    background: #000;
+}
+.shen4 .shen4bao .shuang .he1 span{
+    margin-right: 20px;
+    color: #bb9a6c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.shen4 .shen4bao .shuang .he2{
+    width: 110px;
+    height: 28px;
+    text-align: center;
+    padding: 5px 30px 5px 20px;
+    line-height: 28px;
+    border: 1px solid #bb9a6c;
+    border-radius: 5px;
+    float: right;
+    background: #000;
+}
+.shen4 .shen4bao .shuang .he2 span{
+    margin-right: 20px;
+    color: #bb9a6c;
+    font-size: 14px;
+    font-weight: 600;
+}
+.shen4 .shen4bao .shuang .i320{
+    width: 5px;
+    height: 8px;
+    background: url(../img/精灵图7.png) -1849px -62px ;
+}
+
+
+
+.shen5{
+    width: 1182px;
+    height: 600px;
+    border: 1px solid #ebebeb;
+    background: #fff;
+    margin-top: 10px;
+    padding: 16px 28px 0px 28px ;
+}
+.shen5 .shen501{
+    width: 1182px;
+    height: 65px;
+    position: relative;
+    padding-bottom: 25px;
+}
+.shen5 .shen501 h2{
+    width: 82px;
+    height: 24px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    border-left:3px solid #0FABC1;
+}
+.shen5 .shen501 span{
+    width: 107px;
+    height: 19px;
+    margin-left: 29px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.shen5 .shen501 span .pp99{
+    width: 29px;
+    height: 31px;
+    font-size: 24px;
+    margin-left: 12px;
+    font-weight: 700;
+    color: #0fabc1;
+}
+.shen5 .shen501 .heng{
+    width: 1182px;
+    height: 9px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: url(../img/精灵图8.png) -1px -15px;
+}
+
+
+
+
+.shen5 .shen502{
+    width: 1210px;
+    height: 332px;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+}
+.shen5 .shen502 ul{
+    width: 1210px;
+    height: 332px;
+}
+.shen5 .shen502 ul li{
+    width: 79px;
+    height: 126px;
+    margin-right: 53px;
+    margin-bottom: 40px;
+    float: left;
+}
+.shen5 .shen502 .igg{
+    width: 79px;
+    height: 94px;
+    position: relative;
+    background: url(../img/精灵图9徽章.png) -809px -93px;
+}
+.shen5 .shen502 .igg p{
+    position: absolute;
+    color: #fff;
+    left: 27px;
+    bottom: 3px;
+}
+.shen5 .shen502 span{
+    width: 79px;
+    height: 21px;
+    font-size: 14px;
+    margin-top: 11px;
+    color: #aaa;
+}
+.shen5 .shen502 .heng{
+    width: 1182px;
+    height: 9px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: url(../img/精灵图8.png) -1px -15px;
+}
+.shen5 .shen503{
+    width: 1209px;
+    height: 118px;
+    margin-top: 27px;
+}
+.shen5 .shen503 ul{
+    width: 1209px;
+    height: 118px;
+}
+.shen5 .shen503 ul li{
+    width: 196px;
+    height: 27px;
+    float: left;
+    margin-bottom: 32px;
+}
+.shen5 .shen503 .ppgg{
+    font-size: 14px;
+    color: #000;
+    margin-right: 10px;
+}
+.shen5 .shen503 .ppge{
+    font-size: 18px;
+    color: #0baac0;
+    font-weight: 700;
+}
+
+.shen6{
+    width: 1187px;
+    height: 322px;
+    padding: 0px 26px ;
+    background: #fff;
+    margin-top: 30px;
+    border: 1px solid #ebebeb;
+}
+.shen6 .shen601{
+    width: 1186px;
+    height: 40px;
+    margin-top: 25px;
+}
+.shen6 h2{
+    width: 82px;
+    height: 24px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    border-left:3px solid #0FABC1;
+}
+.shen6 .ddmm{
+    width: 160px;
+    height: 34px;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: #aaa;
+    font-size: 14px;
+    border: 1px solid #dcdcdc;
+}
+.shen6 .dda{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #404040;
+}
+.shen6 .i390{
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    background: url(../img/精灵图8.png) -123px -64px;
+}
+.shen6 .i391{
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    background: url(../img/精灵图8.png) -164px -64px;
+}
+.shen6 .i392{
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    background: url(../img/精灵图8.png) -41px -64px;
+}
+.shen6 .shen601t{
+    width: 267px;
+    height: 40px;
+}
+.shen6 .shen601ty{
+    width: 215px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #dcdcdc;
+}
+.shen6 .shen601t .btn{
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+    background: url(../img/精灵图9徽章.png) -199px -13px;
+}
+
+.shen6 .shen602{
+    width: 1186px;
+    height: 140px;    
+    margin-top: 42px;
+    border-top: #c6c6c6 solid 1px;
+}
+.shen6 .shen602 ul{
+    width: 1186px;
+    height: 70px;
+}
+.shen6 .shen602 ul li{
+    width: 183px;
+    height: 70px;
+    float: left;
+    font-size: 12px;
+    color: #000;
+    text-align: left;
+    margin-left: 14px;
+    line-height: 70px;
+}
+.shen6 .shen603{
+    width: 1186px;
+    height: 50px;
+    margin-top: -10px;
+    text-align: center;
+    line-height: 53px;
+    background-color:#DFDFDF ;
+    color: #444;
+}
+
+
+
+
+/* 脚 */
+.foot{
+    padding: 45px 0px;
+    background-color: #E3E2E2;
+}
+.foot .footbao{
+    height: 145px;
+    padding: 15px 20px;
+}
+.foot .footbao .footz{
+    width: 321px;
+    height: 100px;
+    margin-top: 24px;
+}
+.foot .footbao .footz .i200{
+    width: 189px;
+    height: 34px;
+    background: url(../img/精灵图2.png) -215px -1px;
+}
+.foot .footbao .footz .i201{
+    width: 82px;
+    height: 28px;
+    background: url(../img/精灵图2.png) -215px -85px;
+}
+.foot .footbao .footy li{
+    line-height: 20px;
+}
+.foot .footbao .footy a{
+    text-decoration: none;
+    color: #9f9378;
+    font-size: 12px;
+}
+.foot .footbao .footy span{
+    color: #9f9378;
+    font-size: 12px;
+}
+
+
+.father{
+    position: relative;
+}
+.father .gu{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 105px;
+    height: 53px;
+    background:url(../img/精灵图4.png) no-repeat  -2px -137px;
+}
